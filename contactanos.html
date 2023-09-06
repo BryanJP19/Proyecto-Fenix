@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Citas</title>
+    <link rel="stylesheet" href="estiloformulario.css">
+</head>
+<body>
+    <script src="js.js"></script>
+    <div id="container">
+        <h1>Agenda de Citas</h1>
+        <form id="citaForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            
+            <label for="fechaHora">Fecha y Hora:</label>
+            <input type="datetime-local" id="fechaHora" required>
+            
+            <input type="submit" value="Agendar Cita">
+        </form>
+    </div>
+
+</body>
+</html>
